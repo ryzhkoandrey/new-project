@@ -1,15 +1,16 @@
 // global
 
-@use 'global/vars';
-@use 'global/fonts';
-@use 'global/reset';
-@use 'global/base';
+@import 'global/vars';
+@import 'global/mixins';
+@import 'global/fonts';
+@import 'global/reset';
+@import 'global/base';
 
 // blocks
 
-@use 'blocks/hide';
-@use 'blocks/container';
+@import 'blocks/hide';
+@import 'blocks/container';
 
-@use 'blocks/header';
-@use 'blocks/main';
-@use 'blocks/footer';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/footer';
