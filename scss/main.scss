@@ -1,15 +1,15 @@
 // global
 
-@import 'global/fonts';
-@import 'global/reset';
-@import 'global/vars';
-@import 'global/base';
+@use 'global/vars';
+@use 'global/fonts';
+@use 'global/reset';
+@use 'global/base';
 
 // blocks
 
-@import 'blocks/hide';
-@import 'blocks/container';
+@use 'blocks/hide';
+@use 'blocks/container';
 
-@import 'blocks/header';
-@import 'blocks/main';
-@import 'blocks/footer';
+@use 'blocks/header';
+@use 'blocks/main';
+@use 'blocks/footer';
