@@ -6,11 +6,13 @@
 @import 'global/reset';
 @import 'global/base';
 
-// blocks
+// blocks common
 
 @import 'blocks/none';
 @import 'blocks/no-scroll';
 @import 'blocks/container';
+
+// blocks unique
 
 @import 'blocks/header';
 @import 'blocks/main';
