@@ -49,6 +49,11 @@ ol {
    list-style: none;
 }
 
+dt,
+dd {
+   display: inline-block;
+}
+
 // Blockquote
 
 q,
