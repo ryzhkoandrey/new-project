@@ -4,14 +4,15 @@
 @import 'global/vars';
 @import 'global/fonts';
 @import 'global/reset';
-@import 'global/base';
 
 // blocks
 
 @import 'blocks/none';
+@import 'blocks/no-scroll';
 @import 'blocks/no-scroll-adaptive';
 @import 'blocks/container';
 
+@import 'blocks/body';
 @import 'blocks/header';
 @import 'blocks/main';
 @import 'blocks/footer';
